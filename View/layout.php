@@ -13,10 +13,10 @@ function PrintCss()
                 <meta name="author" content="">
                 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-                <link rel="stylesheet" href="css/bootstrap.min.css">
-                <link rel="stylesheet" href="css/font-awesome.min.css">
-                <link rel="stylesheet" href="css/aos.css">
-                <link rel="stylesheet" href="css/styles.css">
+                <link rel="stylesheet" href="../css/bootstrap.min.css">
+                <link rel="stylesheet" href="../css/font-awesome.min.css">
+                <link rel="stylesheet" href="../css/aos.css">
+                <link rel="stylesheet" href="../css/styles.css">
             </head>';
 }
 
@@ -28,7 +28,7 @@ function PrintMenu()
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png"  style="height: 60px;">
+                <img src="../images/logo.png"  style="height: 60px;">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -37,14 +37,14 @@ function PrintMenu()
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-lg-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link smoothScroll">Home</a>
+                        <a href="#home" class="nav-link smoothScroll">Inicio</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#about" class="nav-link smoothScroll">Principal</a>
+                        <a href="#about" class="nav-link smoothScroll">Consulta</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#class" class="nav-link smoothScroll">Abonos</a>
+                        <a href="../Registro/registro.php" class="nav-link smoothScroll">Registro</a>
                     </li>
                 </ul>
             </div>
@@ -80,11 +80,11 @@ function PrintFooter()
 function PrintScript()
 {
     echo '
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script src="js/smoothscroll.js"></script>
-         <script src="js/custom.js"></script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/aos.js"></script>
+        <script src="../js/smoothscroll.js"></script>
+         <script src="../js/custom.js"></script>
          ';
 }
 
